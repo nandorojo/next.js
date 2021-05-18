@@ -13,7 +13,7 @@ const Fill = () => (
         src="/mountains.jpg"
         layout="fill"
         objectFit="cover"
-        sizes="(max-width: 100vw) ${itemWidth}, ${itemWidth}"
+        sizes={`(max-width: 100vw) ${itemWidth}, ${itemWidth}`}
       />
     </div> 
   </div>
